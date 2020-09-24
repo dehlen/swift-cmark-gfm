@@ -1,0 +1,1 @@
+../../../cmark-gfm/src/case_fold_switch.inc
