@@ -6,6 +6,22 @@ There you can access the [original README.md](./cmark-gfm/README.md) along with 
 
 ## Usage
 
+### Cloning the package
+
+It is a known restriction of the Swift package manager that it doesn't fetch submodules. Therefore you will have to clone the repository yourself and include the package to your project directly.
+
+To ensure the submodule is properly cloned, use the following command to clone the repository:
+
+    git clone --recursive https://github.com/pd95/swift-cmark-gfm.git
+
+Afterwards, the subdirectory `cmark-gfm` should contain the [cmark-gfm sources](https://github.com/github/cmark-gfm).
+
+If you forgot the `--recursive` option while cloning the repository, you can also get the submodule by executing
+
+    git submodule update
+
+### Rendering Markdown
+
 Currently only the original `cmark-gfm` C API is provided. The API can be imported using the module `cmark_gfm`.
 
 The following example illustrates a simple usage:
