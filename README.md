@@ -12,7 +12,7 @@ It is a known restriction of the Swift package manager that it doesn't fetch sub
 
 To ensure the submodule is properly cloned, use the following command to clone the repository:
 
-    git clone --recursive https://github.com/pd95/swift-cmark-gfm.git
+    git clone --recursive https://github.com/dehlen/swift-cmark-gfm.git
 
 Afterwards, the subdirectory `cmark-gfm` should contain the [cmark-gfm sources](https://github.com/github/cmark-gfm).
 
